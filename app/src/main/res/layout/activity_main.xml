@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:fitsSystemWindows="true">
+    <SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Tìm đơn hàng theo tên..." />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:onClick="goToOrder"
+        android:layout_gravity="center_horizontal" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/order_list_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:clipToPadding="false"
+        android:paddingBottom="8dp" />
+
+</LinearLayout>

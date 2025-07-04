@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_blue">#2196F3</color>         <!-- Màu xanh dương chủ đạo -->
+    <color name="primary_dark_blue">#1976D2</color>    <!-- Màu xanh dương đậm (variant) -->
+    <color name="accent_orange">#FF9800</color>        <!-- Màu cam nhấn -->
+    <color name="background_light">#F5F5F5</color>     <!-- Màu nền sáng -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>
